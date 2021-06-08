@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ApplicationController;
 use App\Http\Controllers\WebsiteController;
+use App\Jobs\NotifyAdminNewApplication;
+use App\Models\Application;
 use Illuminate\Support\Facades\Route;
 
 /*

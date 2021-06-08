@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\NotifyAdminNewApplication;
 use App\Models\Application;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -49,6 +50,8 @@ class ApplicationController extends Controller
         ]);
 
         $application = Application::create($request->all());
+
+        NotifyAdminNewApplication::dispatch($application);
 
         return Redirect::route('application.complete', ['id' => $application->id]);
     }
