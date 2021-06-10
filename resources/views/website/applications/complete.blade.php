@@ -38,8 +38,16 @@
                                             <td>{{ $application->gender }}</td>
                                         </tr>
                                         <tr>
+                                            <th>Grade</th>
+                                            <td>{{ $application->class }}</td>
+                                        </tr>
+                                        <tr>
                                             <th>Time preference</th>
                                             <td>{{ $application->getTimePreference() }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Phone</th>
+                                            <td>{{ $application->phone }}</td>
                                         </tr>
                                         <tr>
                                             <th>Whatsapp</th>

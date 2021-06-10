@@ -9,7 +9,9 @@
 | Email:                     | {{ $application->email}}                                                   |
 | Age:                       | {{ $application->age}}                                                     |
 | Gender:                    | {{ $application->gender}}                                                  |
+| Grade:                     | {{ $application->class}}                                                   |
 | Time preference:           | {{ $application->getTimePreference()}}                                     |
+| Phone:                     | {{ $application->phone}}                                                   |
 | Whatsapp:                  | {{ $application->whatsapp}}                                                |
 | State:                     | {{ $application->state}}                                                   |
 | Country:                   | {{ $application->country}}                                                 |

@@ -44,6 +44,8 @@ class ApplicationController extends Controller
             'age' => 'required',
             'gender' => 'required',
             'time_preference' => 'required',
+            'class' => 'required',
+            'phone' => 'required',
             'whatsapp' => 'required',
             'state' => 'required',
             'country' => 'required',
