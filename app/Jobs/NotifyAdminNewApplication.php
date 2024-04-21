@@ -34,6 +34,6 @@ class NotifyAdminNewApplication implements ShouldQueue
      */
     public function handle()
     {
-        Mail::to('info@fatiha.me')->send(new NewApplicationMail($this->application));
+        Mail::to(config('app.admin_email'))->send(new NewApplicationMail($this->application));
     }
 }
