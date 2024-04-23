@@ -186,7 +186,7 @@
 
 
                                     <button type="submit"
-                                        class="button button-large btn-block rounded font-weight-semibold ml-0 mt-2">Submit</button>
+                                        class="button button-large btn-block rounded font-weight-semibold ml-0 mt-2" id="submit-form">Submit</button>
                                 </form>
 
                             </div>
@@ -385,4 +385,5 @@
 
         </div>
     </div>
+
 @endsection

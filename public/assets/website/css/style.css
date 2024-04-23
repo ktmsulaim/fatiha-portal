@@ -16230,3 +16230,7 @@ label.checkbox { padding-left: 20px; }
 	animation-name: fadeOutUpSmall;
 }
 
+button#submit-form:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
